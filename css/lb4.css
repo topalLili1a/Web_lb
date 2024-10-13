@@ -1,0 +1,46 @@
+body {
+    background: url("../src/img/lb4/bg_page.png") center repeat-y;
+    background-color: #fef8ac;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#banner img {
+}
+
+h1,
+h2,
+h3 {
+    border-top: 2px solid #8c9447;
+    display: flex;
+    justify-content: left;
+    color: #ad7d31;
+    padding-left: 90px;
+}
+
+p:nth-child(3) {
+    color: #d3760c;
+    font-size: 18px;
+}
+
+p {
+    margin-left: 93px;
+    max-width: 640px;
+}
+
+.advice {
+    padding: 12px;
+    border: 1px dashed #948b50;
+    background-color: #fbf8a9;
+    width: 80%;
+    color: #030303;
+    border-radius: 4px;
+}
+
+.advice strong {
+    color: rgb(160, 7, 7);
+    text-transform: uppercase;
+}
