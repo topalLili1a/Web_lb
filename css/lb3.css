@@ -1,0 +1,46 @@
+body {
+    background: url("../src/img/lb3/bg_body.png") repeat-x;
+    background-color: #97bde1;
+}
+
+h1 {
+    margin-top: 145px;
+    color: blue;
+    font-size: 95px;
+    font-family: sans-serif;
+}
+
+.intro {
+    color: #33508a;
+    padding-top: 15px;
+}
+
+h2::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url("../src/img/lb3/bg_h2.png") no-repeat left center;
+    margin-right: 32px;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #24427c;
+    border-bottom: 3px solid #fff;
+}
+
+p:not(:first-child) {
+    margin-left: 90px;
+}
+
+pre {
+    color: #406494;
+    margin-left: 95px;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(16, 16, 214);
+    font-weight: bold;
+}
